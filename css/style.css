@@ -1,3 +1,33 @@
+/* Debug */
+
+.debug #jumbotron {
+    height: 500px;
+}
+
+.debug #jumbotron .container,
+.debug #sponsorbar .container {
+    background-color: yellow;
+}
+
+.debug #jumbotron [class*=col] {
+    height: 500px;
+    border: 2px solid red;
+}
+
+#sponsorbar {
+    height: 250px;
+    background-color: lightseagreen;
+}
+
+.debug #sponsorbar [class*=col] {
+    height: 214px;
+    border: 1px solid red;
+}
+
+
+/* /Debug */
+
+
 /* Common */
 
 body {
@@ -43,3 +73,15 @@ body {
     color: #031C4E;
     background-color: transparent;
 }
+
+#jumbotron {
+    background-image: url(../img/bg-banner-home.jpg);
+    background-size: cover;
+}
+
+#sponsorbar {
+    text-align: center;
+}
+
+
+/* Main */
