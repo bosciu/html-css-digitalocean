@@ -1,26 +1,5 @@
-/* Common */
-
 body {
     font-family: 'Roboto', sans-serif;
-}
-
-.btn-blue {
-    color: #0471FF;
-    border-color: #0471FF;
-}
-
-
-/* Header */
-
-.navbar-default {
-    font-weight: 500;
-    font-size: 17px;
-    border-color: transparent;
-    background-color: #FFFFFF
-}
-
-.navbar-nav {
-    margin-left: 10%;
 }
 
 .navbar-brand>img {
@@ -29,17 +8,33 @@ body {
     transform: scale(1.7);
 }
 
+.btn-blue {
+    color: #0471FF;
+    border-color: #0471FF;
+}
+
+.navbar-nav {
+    margin-left: 10%;
+}
+
 .navbar-default .navbar-nav>li>a {
     padding-top: 20px;
     padding-bottom: 20px;
     color: #031C4E;
 }
 
-#sign-up-button {
-    margin-top: 4%;
+.navbar-default {
+    font-weight: 500;
+    font-size: 17px;
+    border-color: transparent;
+    background-color: #FFFFFF
 }
 
 .navbar-default .navbar-nav>.active>a {
     color: #031C4E;
     background-color: transparent;
+}
+
+#sign-up-button {
+    margin-top: 4%;
 }
