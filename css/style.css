@@ -34,8 +34,29 @@ h1 {
 }
 
 h2 {
+    padding-top: 5%;
     font-weight: 600;
     color: #031C4E;
+    font-size: 38px;
+}
+
+h3 {
+    font-size: 21px;
+}
+
+main h3 {
+    color: #031C4E;
+}
+
+h1+p,
+h2+p {
+    font-weight: 400;
+    font-size: 23px;
+}
+
+p {
+    font-size: 16px;
+    font-weight: 500;
 }
 
 
@@ -98,6 +119,7 @@ h2 {
 }
 
 #jumbotron p {
+    font-weight: 500;
     color: rgba(255, 255, 255, 0.7);
 }
 
@@ -107,7 +129,9 @@ h2 {
 }
 
 .login-box h2 {
+    font-size: 30px;
     margin-top: 10%;
+    padding: 0;
 }
 
 .login-box h2>div {
@@ -175,6 +199,7 @@ h2 {
 }
 
 #sponsorbar>h3 {
+    font-size: 17px;
     padding-top: 2%;
     margin-top: 0;
 }
@@ -208,4 +233,21 @@ h2 {
     border-style: solid;
     border-color: grey;
     list-style: none;
+}
+
+main h2+p {
+    margin-bottom: 6%;
+}
+
+#deploy-scale .bottom-row {
+    margin-top: 4%;
+}
+
+#deploy-scale a {
+    font-weight: 400;
+    color: #5C6A88;
+}
+
+#deploy-scale li {
+    padding: 3%;
 }
