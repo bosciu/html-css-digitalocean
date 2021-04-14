@@ -15,6 +15,20 @@ body {
     border-color: #006AFF;
 }
 
+.blue-link {
+    display: inline-block;
+    padding-bottom: 1%;
+    font-size: 16px;
+    color: #006AFF;
+}
+
+.lightblue-link {
+    display: inline-block;
+    padding-bottom: 1%;
+    font-size: 14px;
+    color: #00D5D1;
+}
+
 
 /* Text Rules */
 
@@ -22,6 +36,10 @@ body {
     color: #5C6A88;
     font-size: 23px;
     font-weight: 500;
+}
+
+.color-blue {
+    color: #031C4E;
 }
 
 h1 {
@@ -45,7 +63,8 @@ main h3 {
 }
 
 h1+p,
-h2+p {
+h2+p,
+[src*=rockerbox]+p {
     font-weight: 400;
     font-size: 23px;
 }
@@ -53,6 +72,10 @@ h2+p {
 p {
     font-size: 16px;
     font-weight: 500;
+}
+
+tr {
+    font-size: 14px;
 }
 
 
@@ -194,7 +217,7 @@ p {
     background-color: #F3F5F9;
 }
 
-#sponsorbar>h3 {
+#sponsorbar h3 {
     font-size: 17px;
     padding-top: 2%;
     margin-top: 0;
@@ -211,13 +234,6 @@ p {
     left: 50%;
     transform: translate(-50%, -50%);
     width: 90%;
-}
-
-#sponsorbar a {
-    display: inline-block;
-    padding-bottom: 1%;
-    font-size: 16px;
-    color: #006AFF;
 }
 
 
@@ -250,23 +266,19 @@ main h2+p {
 }
 
 
-/* // */
+/* Designed for developers */
 
 #designed-for-dev {
     background-color: #F3F5F9;
 }
 
-#designed-for-dev img {
+.image-box img {
     width: 55%;
     margin: 0 1%;
 }
 
-#designed-for-dev [class*=chevron-] {
+.image-box [class*=chevron-] {
     font-size: 38px;
-}
-
-#designed-for-dev [class*=chevron-r] {
-    color: #031C4E;
 }
 
 #designed-for-dev .image-box>div {
@@ -275,13 +287,13 @@ main h2+p {
     color: #031C4E;
 }
 
-#designed-for-dev .image-box>ul {
+.image-box>ul {
     margin-bottom: 5%;
     padding: 0;
     list-style: none;
 }
 
-#designed-for-dev .image-box li {
+.image-box li {
     display: inline-block;
     height: 11px;
     width: 11px;
@@ -289,6 +301,67 @@ main h2+p {
     border-radius: 50%;
 }
 
-#designed-for-dev .image-box li.select {
+.image-box li.select {
     background-color: #006AFF;
+}
+
+
+/* Features */
+
+#features {
+    padding-bottom: 3%;
+}
+
+
+/* Speed test */
+
+#speed-test {
+    padding-bottom: 2%;
+    background: linear-gradient(rgb(0, 72, 197), rgb(0, 30, 154));
+}
+
+#speed-test h2 {
+    color: white;
+}
+
+#speed-test tr:first-child>td {
+    border-top: none;
+}
+
+#speed-test tr>td:nth-child(2) {
+    color: rgb(170, 185, 225);
+}
+
+#speed-test tr>td:first-child {
+    color: white;
+}
+
+
+/* Developers love Digital Ocean */
+
+#developers-love-do {
+    background-color: #F3F5F9;
+}
+
+.rockerbox-box {
+    display: inline-block;
+    width: 55%;
+    background-color: white;
+}
+
+.image-box>div.rockerbox-box {
+    margin: 6% 1% 1%;
+    padding: 6% 0;
+}
+
+[src*=rockerbox]+p {
+    margin: 20px 0 10px;
+}
+
+.rockerbox-box>h3 {
+    margin-bottom: 0;
+}
+
+#developers-love-do [class*="chevron"] {
+    transform: translateY(-250%);
 }
