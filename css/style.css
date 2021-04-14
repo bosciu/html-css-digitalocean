@@ -110,7 +110,7 @@ tr {
 }
 
 #sign-up-button {
-    margin-top: 4%;
+    margin-top: 15%;
     font-weight: 500;
 }
 
@@ -148,7 +148,7 @@ tr {
     padding: 0;
 }
 
-.login-box h2>div {
+.login-box h2>span {
     margin: 2% 0;
     color: #006AFF;
 }
@@ -465,7 +465,6 @@ main h2+p {
     }
     .navbar-collapse {
         border-top: 1px solid transparent;
-        box-shadow: inset 0 1px 0 rgba(255, 25255, 0.1);
     }
     .navbar-fixed-top {
         top: 0;
@@ -564,6 +563,10 @@ main h2+p {
     }
     #features [class*=col-] {
         margin-bottom: 3%;
+    }
+    [src*=rockerbox]+p {
+        font-size: 17px;
+        font-weight: 500;
     }
     #footer-up {
         padding: 5% 0;
