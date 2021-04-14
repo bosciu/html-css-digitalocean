@@ -539,3 +539,39 @@ main h2+p {
         margin-top: 5%;
     }
 }
+
+@media screen and (max-width: 767px) {
+    body {
+        font-size: 21px;
+    }
+    h1 {
+        font-size: 40px;
+    }
+    #jumbotron {
+        padding: 8% 0 8%;
+    }
+    .login-box h2 {
+        margin-top: 6%;
+    }
+    #terms-services {
+        margin: 4% 0 4%;
+    }
+    #sponsorbar img {
+        width: 55%;
+    }
+    .mar-bottom5 {
+        margin-bottom: 5%;
+    }
+    #features [class*=col-] {
+        margin-bottom: 3%;
+    }
+    #footer-up {
+        padding: 5% 0;
+    }
+    #footer-bottom li {
+        padding: 1% 0;
+    }
+    .mar-top-xs-3 {
+        margin-top: 3%;
+    }
+}
