@@ -365,3 +365,27 @@ main h2+p {
 #developers-love-do [class*="chevron"] {
     transform: translateY(-250%);
 }
+
+
+/* Footer */
+
+#footer-up {
+    background: linear-gradient(rgb(0, 72, 197), rgb(0, 30, 154));
+}
+
+#footer-up h2 {
+    color: white;
+}
+
+#footer-up .btn {
+    margin: 1% 0 4%;
+    padding: 10px 14px;
+    border-radius: 7px;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+#footer-up .btn-primary {
+    background-color: white;
+    color: #006AFF;
+}
