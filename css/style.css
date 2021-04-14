@@ -213,14 +213,13 @@ tr {
 /* /Jumbotron */
 
 #sponsorbar {
+    padding: 1% 0;
     text-align: center;
     background-color: #F3F5F9;
 }
 
 #sponsorbar h3 {
     font-size: 17px;
-    padding-top: 2%;
-    margin-top: 0;
 }
 
 #sponsorbar [class*=col-] {
@@ -388,4 +387,40 @@ main h2+p {
 #footer-up .btn-primary {
     background-color: white;
     color: #006AFF;
+}
+
+#footer-bottom {
+    padding: 4%;
+    background-color: #031C4E;
+}
+
+#footer-bottom p {
+    margin-top: 3%;
+}
+
+#footer-bottom p>span,
+#footer-bottom i {
+    color: rgb(166, 173, 189);
+}
+
+#footer-bottom i {
+    margin-right: 3%;
+}
+
+#footer-bottom ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+#footer-bottom li {
+    padding: 3% 0;
+    font-size: 16px;
+    font-weight: 500;
+    color: rgb(166, 173, 189);
+}
+
+#footer-bottom ul>li:first-child {
+    font-size: 20px;
+    color: white;
 }
