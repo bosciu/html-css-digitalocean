@@ -1,9 +1,5 @@
 /* Debug */
 
-.debug #deploy-scale {
-    height: 700px;
-}
-
 
 /* /Debug */
 
@@ -227,6 +223,10 @@ p {
 
 /* Main */
 
+main h2+p {
+    margin-bottom: 6%;
+}
+
 #deploy-scale ul {
     padding-left: 0;
     border-width: 0 0 0 2px;
@@ -235,12 +235,9 @@ p {
     list-style: none;
 }
 
-main h2+p {
-    margin-bottom: 6%;
-}
-
 #deploy-scale .bottom-row {
     margin-top: 4%;
+    margin-bottom: 10%;
 }
 
 #deploy-scale a {
@@ -250,4 +247,48 @@ main h2+p {
 
 #deploy-scale li {
     padding: 3%;
+}
+
+
+/* // */
+
+#designed-for-dev {
+    background-color: #F3F5F9;
+}
+
+#designed-for-dev img {
+    width: 55%;
+    margin: 0 1%;
+}
+
+#designed-for-dev [class*=chevron-] {
+    font-size: 38px;
+}
+
+#designed-for-dev [class*=chevron-r] {
+    color: #031C4E;
+}
+
+#designed-for-dev .image-box>div {
+    padding-top: 2%;
+    font-size: 16px;
+    color: #031C4E;
+}
+
+#designed-for-dev .image-box>ul {
+    margin-bottom: 5%;
+    padding: 0;
+    list-style: none;
+}
+
+#designed-for-dev .image-box li {
+    display: inline-block;
+    height: 11px;
+    width: 11px;
+    border: 1px solid#006AFF;
+    border-radius: 50%;
+}
+
+#designed-for-dev .image-box li.select {
+    background-color: #006AFF;
 }
