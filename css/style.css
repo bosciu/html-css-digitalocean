@@ -342,6 +342,12 @@ main h2+p {
 /* Speed test */
 
 #speed-test {
+    height: 420px;
+    background-color: blue;
+}
+
+
+/* #speed-test {
     padding-bottom: 2%;
     background: linear-gradient(rgb(0, 72, 197), rgb(0, 30, 154));
 }
@@ -364,7 +370,7 @@ main h2+p {
 
 #speed-test a:hover {
     color: white;
-}
+} */
 
 
 /* Developers love Digital Ocean */
