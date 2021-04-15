@@ -505,6 +505,9 @@ main h2+p {
     padding: 0;
 }
 
+
+/* Media query */
+
 @media screen and (min-width: 1200px) {
     #jumbotron,
     #sponsorbar,
