@@ -6,6 +6,10 @@
 
 /* Common */
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     font-family: 'Roboto', sans-serif;
 }
@@ -27,6 +31,22 @@ body {
     padding-bottom: 1%;
     font-size: 14px;
     color: #00D5D1;
+}
+
+.btn-primary:focus,
+.btn:active:focus,
+.btn:focus {
+    outline: unset;
+    outline-color: transparent;
+}
+
+.btn-default:active,
+.btn-default:focus {
+    background-color: unset;
+}
+
+[class*=chevron-] {
+    cursor: pointer;
 }
 
 
@@ -135,6 +155,10 @@ tr {
 #jumbotron p {
     font-weight: 500;
     color: rgba(255, 255, 255, 0.7);
+}
+
+#jumbotron button:not(#login-btn):hover {
+    background: #006AFF
 }
 
 .login-box {
@@ -310,6 +334,10 @@ main h2+p {
     padding-bottom: 4%;
 }
 
+#features a:hover {
+    color: #031C4E;
+}
+
 
 /* Speed test */
 
@@ -331,6 +359,10 @@ main h2+p {
 }
 
 #speed-test tr>td:first-child {
+    color: white;
+}
+
+#speed-test a:hover {
     color: white;
 }
 
@@ -386,6 +418,11 @@ main h2+p {
 #footer-up .btn-primary {
     background-color: white;
     color: #006AFF;
+    transition: background 0.3s ease;
+}
+
+#footer-up .btn-primary:hover {
+    background: rgba(205, 208, 226, 0.9);
 }
 
 #footer-bottom {
@@ -403,7 +440,13 @@ main h2+p {
 }
 
 #footer-bottom i {
+    cursor: pointer;
     margin-right: 3%;
+}
+
+#footer-bottom i:hover,
+#footer-bottom li:hover {
+    color: white;
 }
 
 #footer-bottom ul {
@@ -417,6 +460,10 @@ main h2+p {
     font-size: 16px;
     font-weight: 500;
     color: rgb(166, 173, 189);
+}
+
+#footer-bottom li:not(:first-child) {
+    cursor: pointer;
 }
 
 #footer-bottom ul>li:first-child {
@@ -540,6 +587,12 @@ main h2+p {
 }
 
 @media screen and (max-width: 767px) {
+    .navbar-right {
+        float: unset !important;
+    }
+    #sign-up-button {
+        margin: 1% 1.5%;
+    }
     body {
         font-size: 21px;
     }
