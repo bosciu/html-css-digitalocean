@@ -475,7 +475,8 @@ main h2+p {
 }
 
 #footer-bottom i:hover,
-#footer-bottom li:hover {
+#footer-bottom li:hover,
+#footer-bottom ul>li>a:hover {
     color: white;
 }
 
@@ -485,20 +486,21 @@ main h2+p {
     list-style: none;
 }
 
-#footer-bottom li {
+#footer-bottom li,
+#footer-bottom li>a {
     padding: 3% 0;
     font-size: 16px;
     font-weight: 500;
     color: rgb(166, 173, 189);
 }
 
-#footer-bottom li:not(:first-child) {
-    cursor: pointer;
-}
-
 #footer-bottom ul>li:first-child {
     font-size: 20px;
     color: white;
+}
+
+#footer-bottom ul>li>a:hover {
+    text-decoration: none;
 }
 
 .navbar-brand {
